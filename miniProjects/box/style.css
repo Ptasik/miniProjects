@@ -1,0 +1,40 @@
+.bigBox{
+    width: 800px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    border: 1px solid #ddd;
+}
+
+.box{
+    width: 98px;
+    height: 98px;
+    border: #ddd solid 1px;
+    color: #ddd;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 100px;
+    display: block;
+}
+
+.active{
+    background: red;
+}
+
+
+.green{
+    background: green;
+}
+
+
+.score{
+    margin: 0 auto;
+    width: 800px;
+    font-size: 1.5rem;
+}
+
+.count{
+    font-size: 2rem;
+}
+
